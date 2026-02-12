@@ -32,7 +32,7 @@ export default function ContactPreview() {
   };
 
   const whatsappHref = `https://wa.me/${site.contact.whatsapp}?text=${encodeURIComponent(
-    "Hola, quiero agendar una valoración para injerto capilar en Capellcity."
+    "Hola, quiero agendar una valoración para injerto capilar en Capellcity.",
   )}`;
 
   return (
@@ -63,7 +63,8 @@ export default function ContactPreview() {
             variants={item}
             className="mt-3 max-w-2xl text-base text-brand-ink/70"
           >
-            Estamos en Nuevo Laredo. Contáctanos para valoración y plan personalizado.
+            Estamos en Nuevo Laredo. Contáctanos para valoración y plan
+            personalizado.
           </motion.p>
 
           <motion.div
@@ -75,9 +76,7 @@ export default function ContactPreview() {
               variants={item}
               className="rounded-3xl border border-black/10 bg-white p-6 shadow-sm"
             >
-              <p className="text-sm font-semibold text-brand-ink">
-                Capellcity
-              </p>
+              <p className="text-sm font-semibold text-brand-ink">Capellcity</p>
 
               <p className="mt-2 text-sm text-brand-ink/70">
                 {site.location.fullAddress}
@@ -107,9 +106,7 @@ export default function ContactPreview() {
               variants={item}
               className="rounded-3xl border border-black/10 bg-white p-6 shadow-sm"
             >
-              <p className="text-sm font-semibold text-brand-ink">
-                Ubicación
-              </p>
+              <p className="text-sm font-semibold text-brand-ink">Ubicación</p>
 
               <p className="mt-2 text-sm text-brand-ink/70">
                 Encuéntranos fácilmente en Google Maps.
